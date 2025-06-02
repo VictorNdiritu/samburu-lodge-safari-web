@@ -1,12 +1,13 @@
 
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Accommodations from '@/components/Accommodations';
-import Experiences from '@/components/Experiences';
-import Gallery from '@/components/Gallery';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Accommodations from "@/components/Accommodations";
+import Experiences from "@/components/Experiences";
+import Gallery from "@/components/Gallery";
+import TravelInfo from "@/components/TravelInfo";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <Accommodations />
       <Experiences />
       <Gallery />
+      <TravelInfo />
       <Contact />
       <Footer />
     </div>
