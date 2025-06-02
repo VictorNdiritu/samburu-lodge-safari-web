@@ -1,20 +1,22 @@
 
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Accommodations', href: '#accommodations' },
-    { name: 'Experiences', href: '#experiences' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Travel Info', href: '#travel' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '#home', isAnchor: true },
+    { name: 'About', href: '#about', isAnchor: true },
+    { name: 'Accommodations', href: '#accommodations', isAnchor: true },
+    { name: 'Experiences', href: '#experiences', isAnchor: true },
+    { name: 'Gallery', href: '#gallery', isAnchor: true },
+    { name: 'Travel Info', href: '/travel-info', isAnchor: false },
+    { name: 'Contact', href: '#contact', isAnchor: true },
   ];
 
   return (
@@ -23,21 +25,31 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-xl font-light text-gray-900 font-playfair tracking-wide">
+            <Link to="/" className="text-xl font-light text-gray-900 font-playfair tracking-wide">
               Samburu Elephant Lodge
-            </h1>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-12">
             {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-sm uppercase tracking-[0.1em] text-gray-700 hover:text-gray-900 transition-colors duration-300 font-light"
-              >
-                {item.name}
-              </a>
+              item.isAnchor ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-sm uppercase tracking-[0.1em] text-gray-700 hover:text-gray-900 transition-colors duration-300 font-light"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="text-sm uppercase tracking-[0.1em] text-gray-700 hover:text-gray-900 transition-colors duration-300 font-light"
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </nav>
 
@@ -73,14 +85,25 @@ const Header = () => {
                 </div>
                 <nav className="flex flex-col space-y-8 flex-1">
                   {navItems.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="text-2xl font-light text-gray-900 hover:text-gray-600 transition-colors duration-300"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.name}
-                    </a>
+                    item.isAnchor ? (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="text-2xl font-light text-gray-900 hover:text-gray-600 transition-colors duration-300"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {item.name}
+                      </a>
+                    ) : (
+                      <Link
+                        key={item.name}
+                        to={item.href}
+                        className="text-2xl font-light text-gray-900 hover:text-gray-600 transition-colors duration-300"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                    )
                   ))}
                   <div className="pt-8">
                     <Button className="bg-gray-900 text-white hover:bg-gray-800 w-full py-3 text-sm uppercase tracking-[0.1em]">
