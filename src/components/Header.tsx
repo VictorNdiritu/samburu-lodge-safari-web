@@ -16,6 +16,7 @@ const Header = () => {
     { name: 'Experiences', href: '#experiences', isAnchor: true },
     { name: 'Gallery', href: '#gallery', isAnchor: true },
     { name: 'Travel Info', href: '/travel-info', isAnchor: false },
+    { name: 'Blog', href: '/blog', isAnchor: false },
     { name: 'Contact', href: '#contact', isAnchor: true },
   ];
 
