@@ -67,6 +67,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
+				brand: {
+					orange: '#E87B2F',
+					'orange-dark': '#D2651A',
+					'orange-light': '#F4A460',
+					brown: '#4A3B2F',
+					'brown-dark': '#3A2B1F',
+					'brown-light': '#5A4B3F',
+					cream: '#F5F1EB',
+					'cream-dark': '#E8E1D7',
+				},
 				safari: {
 					50: '#fef7ed',
 					100: '#fef0db',

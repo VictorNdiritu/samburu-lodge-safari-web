@@ -22,12 +22,16 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm">
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-xl font-light text-gray-900 font-playfair tracking-wide">
-              Samburu Elephant Lodge
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/6b7955da-7fa0-48c4-905a-ad86aecf5190.png" 
+                alt="Samburu Elephant Lodge" 
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
 
@@ -38,7 +42,7 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-sm uppercase tracking-[0.1em] text-gray-700 hover:text-gray-900 transition-colors duration-300 font-light"
+                  className="text-sm uppercase tracking-[0.1em] text-brand-brown hover:text-brand-orange transition-colors duration-300 font-light"
                 >
                   {item.name}
                 </a>
@@ -46,7 +50,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-sm uppercase tracking-[0.1em] text-gray-700 hover:text-gray-900 transition-colors duration-300 font-light"
+                  className="text-sm uppercase tracking-[0.1em] text-brand-brown hover:text-brand-orange transition-colors duration-300 font-light"
                 >
                   {item.name}
                 </Link>
@@ -58,7 +62,7 @@ const Header = () => {
           <div className="hidden lg:flex">
             <Button 
               variant="outline" 
-              className="border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-2 text-xs uppercase tracking-[0.1em] font-light"
+              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white px-6 py-2 text-xs uppercase tracking-[0.1em] font-light"
             >
               Reserve
             </Button>
@@ -67,19 +71,19 @@ const Header = () => {
           {/* Mobile Menu Toggle */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="icon" className="text-gray-900">
+              <Button variant="ghost" size="icon" className="text-brand-brown">
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full bg-white">
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between mb-12">
-                  <h2 className="text-xl font-light font-playfair">Menu</h2>
+                  <h2 className="text-xl font-light font-playfair text-brand-brown">Menu</h2>
                   <Button 
                     variant="ghost" 
                     size="icon" 
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-900"
+                    className="text-brand-brown"
                   >
                     <X className="h-5 w-5" />
                   </Button>
@@ -90,7 +94,7 @@ const Header = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-2xl font-light text-gray-900 hover:text-gray-600 transition-colors duration-300"
+                        className="text-2xl font-light text-brand-brown hover:text-brand-orange transition-colors duration-300"
                         onClick={() => setIsOpen(false)}
                       >
                         {item.name}
@@ -99,7 +103,7 @@ const Header = () => {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className="text-2xl font-light text-gray-900 hover:text-gray-600 transition-colors duration-300"
+                        className="text-2xl font-light text-brand-brown hover:text-brand-orange transition-colors duration-300"
                         onClick={() => setIsOpen(false)}
                       >
                         {item.name}
@@ -107,7 +111,7 @@ const Header = () => {
                     )
                   ))}
                   <div className="pt-8">
-                    <Button className="bg-gray-900 text-white hover:bg-gray-800 w-full py-3 text-sm uppercase tracking-[0.1em]">
+                    <Button className="bg-brand-orange text-white hover:bg-brand-orange-dark w-full py-3 text-sm uppercase tracking-[0.1em]">
                       Make Reservation
                     </Button>
                   </div>

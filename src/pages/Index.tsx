@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Accommodations from "@/components/Accommodations";
 import Experiences from "@/components/Experiences";
 import Gallery from "@/components/Gallery";
+import BlogPreview from "@/components/BlogPreview";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -17,6 +18,7 @@ const Index = () => {
       <Accommodations />
       <Experiences />
       <Gallery />
+      <BlogPreview />
       <Contact />
       <Footer />
     </div>

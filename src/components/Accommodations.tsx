@@ -18,8 +18,7 @@ const Accommodations = () => {
         "Complimentary high-speed WiFi",
         "Personal safe and luxury toiletries"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      price: "From $320"
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Chui House",
@@ -36,8 +35,7 @@ const Accommodations = () => {
         "Ceiling fans for natural ventilation",
         "Hairdryer, iron box, and personal safe"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
-      price: "From $280"
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Tembo House",
@@ -54,8 +52,7 @@ const Accommodations = () => {
         "Luxury toiletries and personal safe",
         "Ceiling fans and 20L water dispenser"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      price: "From $420"
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Kifaru House",
@@ -72,8 +69,7 @@ const Accommodations = () => {
         "Complimentary high-speed Wi-Fi",
         "Luxury toiletries and personal safe"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
-      price: "From $300"
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Nyati House",
@@ -90,8 +86,7 @@ const Accommodations = () => {
         "Ceiling fans and luxury toiletries",
         "Complimentary high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      price: "From $290"
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Duma House", 
@@ -108,8 +103,7 @@ const Accommodations = () => {
         "Complimentary high-speed Wi-Fi",
         "Personal safe and luxury toiletries"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
-      price: "From $450"
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Beisa Oryx Cottage",
@@ -126,8 +120,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      price: "From $180"
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Grevy Zebra Cottage", 
@@ -144,8 +137,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
-      price: "From $170"
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Somali Ostrich Cottage",
@@ -162,8 +154,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      price: "From $175"
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Gerenuk Cottage",
@@ -180,8 +171,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries", 
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80",
-      price: "From $165"
+      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
     }
   ];
 
@@ -227,10 +217,6 @@ const Accommodations = () => {
                   </h3>
                   <p className="text-gray-600 leading-relaxed font-light mb-4">
                     {accommodation.description}
-                  </p>
-                  <p className="text-lg font-light text-gray-900">
-                    {accommodation.price}
-                    <span className="text-sm text-gray-500 ml-1">per night</span>
                   </p>
                 </div>
                 <ul className="space-y-3">
