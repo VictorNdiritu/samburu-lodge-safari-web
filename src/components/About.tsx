@@ -6,12 +6,12 @@ const About = () => {
     {
       title: "Conservation",
       description: "Committed to wildlife protection and ecosystem preservation in the Samburu landscape",
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/0808a2aa-6a3d-4233-b3b1-f0ad915c2478.png"
     },
     {
       title: "Community",
       description: "Supporting local Samburu communities through meaningful partnerships and cultural exchange",
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/83c625bb-f478-4857-aa19-33737444d4e6.png"
     },
     {
       title: "Authenticity",
@@ -57,8 +57,8 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
-              alt="Lodge experience"
+              src="/lovable-uploads/c0d96cbc-0f03-41fb-9005-5c5c061a8d15.png"
+              alt="Welcome to Samburu Elephant Lodge"
               className="w-full h-[500px] object-cover"
             />
           </div>

@@ -52,7 +52,7 @@ const Accommodations = () => {
         "Luxury toiletries and personal safe",
         "Ceiling fans and 20L water dispenser"
       ],
-      image: "/lovable-uploads/5e4fb002-415f-4ada-ab4b-df46595fd725.png"
+      image: "/lovable-uploads/ee4b0d52-e85a-4e07-b337-360f2f487f28.png"
     },
     {
       title: "Kifaru House",
@@ -120,7 +120,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "/lovable-uploads/7ca574ad-4fab-422e-b0e8-19d05f205a0f.png"
+      image: "/lovable-uploads/83fdbcee-569d-493e-a450-ccb18be80a74.png"
     },
     {
       title: "Grevy Zebra Cottage", 
