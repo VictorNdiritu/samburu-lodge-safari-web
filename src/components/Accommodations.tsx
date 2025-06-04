@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 
 const Accommodations = () => {
@@ -120,7 +119,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "/lovable-uploads/83fdbcee-569d-493e-a450-ccb18be80a74.png"
+      image: "/lovable-uploads/0fba290e-2f90-4159-8fa9-a1ee42ce6006.png"
     },
     {
       title: "Grevy Zebra Cottage", 

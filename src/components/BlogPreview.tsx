@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, User, ArrowRight, Heart, ExternalLink } from 'lucide-react';
@@ -12,7 +11,7 @@ const BlogPreview = () => {
     author: "SEL Team",
     date: "June 3, 2025",
     category: "Impact",
-    image: "/lovable-uploads/2c026c13-3841-470f-a4da-1650236513d3.png",
+    image: "/lovable-uploads/d9d9e70d-c2aa-41fb-a9aa-72fc8653f136.png",
     readTime: "8 min read"
   };
 
