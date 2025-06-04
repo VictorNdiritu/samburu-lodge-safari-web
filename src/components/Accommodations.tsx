@@ -18,7 +18,7 @@ const Accommodations = () => {
         "Complimentary high-speed WiFi",
         "Personal safe and luxury toiletries"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
     },
     {
       title: "Chui House",
@@ -35,7 +35,7 @@ const Accommodations = () => {
         "Ceiling fans for natural ventilation",
         "Hairdryer, iron box, and personal safe"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     },
     {
       title: "Tembo House",
@@ -52,7 +52,7 @@ const Accommodations = () => {
         "Luxury toiletries and personal safe",
         "Ceiling fans and 20L water dispenser"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/5e4fb002-415f-4ada-ab4b-df46595fd725.png"
     },
     {
       title: "Kifaru House",
@@ -69,7 +69,7 @@ const Accommodations = () => {
         "Complimentary high-speed Wi-Fi",
         "Luxury toiletries and personal safe"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/659bf2a0-4859-4a60-bc13-d6d03cb00697.png"
     },
     {
       title: "Nyati House",
@@ -86,7 +86,7 @@ const Accommodations = () => {
         "Ceiling fans and luxury toiletries",
         "Complimentary high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
     },
     {
       title: "Duma House", 
@@ -103,7 +103,7 @@ const Accommodations = () => {
         "Complimentary high-speed Wi-Fi",
         "Personal safe and luxury toiletries"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     },
     {
       title: "Beisa Oryx Cottage",
@@ -120,7 +120,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/7ca574ad-4fab-422e-b0e8-19d05f205a0f.png"
     },
     {
       title: "Grevy Zebra Cottage", 
@@ -137,7 +137,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/7ca574ad-4fab-422e-b0e8-19d05f205a0f.png"
     },
     {
       title: "Somali Ostrich Cottage",
@@ -154,7 +154,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries",
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
     },
     {
       title: "Gerenuk Cottage",
@@ -171,7 +171,7 @@ const Accommodations = () => {
         "Locally sourced luxury toiletries", 
         "Free high-speed Wi-Fi"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     }
   ];
 

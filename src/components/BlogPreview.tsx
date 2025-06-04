@@ -12,7 +12,7 @@ const BlogPreview = () => {
     author: "SEL Team",
     date: "June 3, 2025",
     category: "Impact",
-    image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?auto=format&fit=crop&w=800&q=80",
+    image: "/lovable-uploads/576d29f0-3a37-4d26-9a8d-569970375393.png",
     readTime: "8 min read"
   };
 
