@@ -12,7 +12,7 @@ const Experiences = () => {
         "Wildlife photography opportunities",
         "All-weather vehicles"
       ],
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/a52c4714-9af4-4b55-9836-9df1f03846e4.png"
     },
     {
       title: "Cultural Encounters",
@@ -23,7 +23,7 @@ const Experiences = () => {
         "Handicraft demonstrations",
         "Cultural storytelling sessions"
       ],
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/1cda3e5b-d1d8-4f15-b3e3-3e71304c6843.png"
     },
     {
       title: "Guided Nature Walks",
@@ -34,7 +34,7 @@ const Experiences = () => {
         "Tracking and conservation insights",
         "Photography workshops"
       ],
-      image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/0f30597b-1899-4e6f-b1e1-faf88403c289.png"
     },
     {
       title: "Birdwatching",
@@ -45,7 +45,7 @@ const Experiences = () => {
         "Specialized equipment provided",
         "Rare species sightings"
       ],
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/826cc20c-e4e4-49b3-99ed-9a39530f28de.png"
     },
     {
       title: "Outdoor Dining",
@@ -56,36 +56,36 @@ const Experiences = () => {
         "Traditional and international cuisine",
         "Private dining arrangements"
       ],
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/b3a34ba0-4a5b-4f09-88c3-b2ec1e220807.png"
     },
     {
-      title: "River Bar Experience",
-      description: "Relax at our elevated bar with panoramic views and signature cocktails",
+      title: "Community Partnerships",
+      description: "Experience authentic connections with local communities through our partnership initiatives",
       highlights: [
-        "Panoramic river views",
-        "Signature cocktails and local beers",
-        "Comfortable balcony seating",
-        "Wildlife viewing opportunities"
+        "Educational program visits",
+        "Local artisan workshops",
+        "Community development tours",
+        "Meaningful cultural exchange"
       ],
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=800&q=80"
+      image: "/lovable-uploads/7bf2e565-a82b-4a3a-b39e-09a644ad96b9.png"
     }
   ];
 
   return (
-    <section id="experiences" className="py-20 bg-gradient-to-b from-earth-50 to-white">
+    <section id="experiences" className="py-20 bg-gradient-to-b from-brand-cream/20 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 font-playfair">
+          <h2 className="text-4xl md:text-5xl font-light text-brand-brown mb-6 font-playfair">
             Unforgettable Experiences
           </h2>
-          <p className="text-xl text-earth-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-brand-brown/80 max-w-3xl mx-auto leading-relaxed font-light">
             Immerse yourself in the wonders of Samburu through carefully curated activities that showcase the region's wildlife, culture, and natural beauty
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
           {experiences.map((experience, index) => (
-            <Card key={index} className="bg-white border-earth-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+            <Card key={index} className="bg-white border-brand-cream hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative overflow-hidden rounded-t-lg">
                 <img 
                   src={experience.image}
@@ -94,18 +94,18 @@ const Experiences = () => {
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl text-earth-800 font-playfair">
+                <CardTitle className="text-xl text-brand-brown font-playfair font-light">
                   {experience.title}
                 </CardTitle>
-                <p className="text-earth-600 leading-relaxed">
+                <p className="text-brand-brown/80 leading-relaxed font-light">
                   {experience.description}
                 </p>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   {experience.highlights.map((highlight, highlightIndex) => (
-                    <li key={highlightIndex} className="flex items-start text-earth-600">
-                      <span className="text-primary mr-2">•</span>
+                    <li key={highlightIndex} className="flex items-start text-brand-brown/80 font-light">
+                      <span className="text-brand-orange mr-2">•</span>
                       {highlight}
                     </li>
                   ))}
@@ -116,11 +116,11 @@ const Experiences = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="bg-primary text-white rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4 font-playfair">
+          <div className="bg-brand-orange text-white rounded-lg p-8 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-light mb-4 font-playfair">
               All-Inclusive Experience Packages Available
             </h3>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed font-light">
               Combine multiple activities with our specially designed packages that include accommodation, meals, and guided experiences for the ultimate Samburu adventure.
             </p>
           </div>
