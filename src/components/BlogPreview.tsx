@@ -65,12 +65,14 @@ const BlogPreview = () => {
                 {featuredPost.excerpt}
               </p>
               <div className="space-y-4">
-                <Button 
-                  variant="ghost" 
-                  className="p-0 h-auto text-brand-orange hover:text-brand-orange-dark font-light text-sm uppercase tracking-[0.1em]"
-                >
-                  Read Full Story <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
+                <Link to="/blog">
+                  <Button 
+                    variant="ghost" 
+                    className="p-0 h-auto text-brand-orange hover:text-brand-orange-dark font-light text-sm uppercase tracking-[0.1em]"
+                  >
+                    Read Full Story <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
                 <div className="pt-4 border-t border-brand-cream">
                   <Link to="/blog">
                     <Button 

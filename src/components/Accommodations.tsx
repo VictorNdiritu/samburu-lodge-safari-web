@@ -182,10 +182,10 @@ const Accommodations = () => {
         <div className="max-w-4xl mx-auto text-center mb-20">
           <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">Accommodations</p>
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8 font-playfair">
-            Luxury Tented Villas<br />in the Wild
+            Luxury Tented Cottages<br />in the Wild
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed font-light">
-            Each villa is thoughtfully designed with solar-powered amenities, luxury toiletries, 
+            Each cottage is thoughtfully designed with solar-powered amenities, luxury toiletries, 
             and private outdoor spaces that immerse you in the natural beauty of Samburu while 
             ensuring complete comfort and privacy.
           </p>
@@ -235,7 +235,7 @@ const Accommodations = () => {
         {/* Amenities */}
         <div className="bg-white p-12 max-w-5xl mx-auto">
           <h3 className="text-2xl font-light text-gray-900 mb-8 text-center font-playfair">
-            Every Villa Includes
+            Every Cottage Includes
           </h3>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>

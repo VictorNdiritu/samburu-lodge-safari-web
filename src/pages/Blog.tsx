@@ -15,7 +15,44 @@ const Blog = () => {
     category: "Impact",
     image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?auto=format&fit=crop&w=1200&q=80",
     readTime: "8 min read",
-    isFeatured: true
+    isFeatured: true,
+    fullContent: `
+      <div class="prose prose-lg max-w-none">
+        <p class="lead">When you book a safari, you expect stunning wildlife, breathtaking landscapes, and luxury in the wild. At Samburu Elephant Lodge (SEL), you get all that — and something much deeper: the chance to be part of a powerful local story of transformation.</p>
+        
+        <h3>🌍 Where Luxury Meets Purpose</h3>
+        <p>Nestled along the peaceful banks of the Ewaso Nyiro River, <strong>Samburu Elephant Lodge</strong> is known for its intimate connection with the land and its people. Run by the Samburu community, the lodge blends warm hospitality with rich cultural experiences and immersive wildlife adventures.</p>
+        
+        <p>But now, your stay means more than just a memory — <strong>a portion of every booking goes directly to support the work of Simama Project Organisation</strong>, a grassroots initiative changing the lives of vulnerable children and youth in Samburu and beyond.</p>
+        
+        <h3>💛 Travel That Uplifts Communities</h3>
+        <p><strong>Simama</strong>, meaning <em>"to stand"</em> in Swahili, helps children who have faced homelessness, hunger, or lack of access to education rise again. Through safe housing, education sponsorships, mentorship, and life-skills training, Simama gives them the tools to build a better future.</p>
+        
+        <p>Their work doesn't stop with the child. Simama engages with families, schools, and entire communities to create lasting change. And with the new partnership between SEL and Simama, <strong>your stay directly supports this mission.</strong></p>
+        
+        <h3>🐾 How You Make a Difference</h3>
+        <p>Here's what your safari booking helps support:</p>
+        <ul>
+          <li>School fees, uniforms, and supplies for at-risk students</li>
+          <li>Safe housing for children transitioning off the streets</li>
+          <li>Life skills, leadership, and mental health support</li>
+          <li>Family reintegration and community education</li>
+          <li>Career training and scholarship pathways</li>
+        </ul>
+        
+        <p>You might come for the elephants and the sunsets — but you leave having helped someone stand again.</p>
+        
+        <h3>✨ A Journey With Heart</h3>
+        <p>At Samburu Elephant Lodge, your luxury safari is intertwined with the heartbeat of the community. While you enjoy morning game drives, sundowners by the river, and cultural visits with Samburu elders, <strong>you're also investing in a brighter, more empowered future for local youth.</strong></p>
+        
+        <p>You're not just a guest here. <strong>You're a partner in something beautiful.</strong></p>
+        
+        <h3>📅 Ready to Travel With Purpose?</h3>
+        <p><strong>Book your stay</strong> at <a href="https://samburuelephantlodge.co.ke" target="_blank" rel="noopener noreferrer">Samburu Elephant Lodge</a> and be part of a story that stretches beyond the wild — into schools, homes, and hearts.</p>
+        
+        <p><strong>Experience Samburu. Empower Samburu.</strong></p>
+      </div>
+    `
   };
 
   const blogPosts = [
@@ -91,55 +128,44 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* Featured Post */}
+      {/* Featured Post Full Content */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center mb-12">
-            <Heart className="w-6 h-6 text-brand-orange mr-3" />
-            <h2 className="text-2xl font-light text-brand-brown font-playfair">Featured Story</h2>
-          </div>
-          
-          <Card className="max-w-5xl mx-auto bg-white border-0 shadow-lg overflow-hidden">
-            <div className="lg:flex">
-              <div className="lg:w-1/2 relative h-96 lg:h-auto overflow-hidden">
-                <img 
-                  src={featuredPost.image}
-                  alt={featuredPost.title}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-brand-orange text-white px-3 py-1">
-                  <span className="text-xs uppercase tracking-[0.1em]">
-                    {featuredPost.category}
-                  </span>
-                </div>
-              </div>
-              <div className="lg:w-1/2 p-12">
-                <div className="flex items-center text-sm text-brand-brown/60 mb-4 space-x-4">
-                  <div className="flex items-center">
-                    <Calendar className="w-4 h-4 mr-2" />
-                    {featuredPost.date}
-                  </div>
-                  <div className="flex items-center">
-                    <User className="w-4 h-4 mr-2" />
-                    {featuredPost.author}
-                  </div>
-                  <span>{featuredPost.readTime}</span>
-                </div>
-                <h3 className="text-2xl font-light text-brand-brown mb-4 font-playfair leading-tight">
-                  {featuredPost.title}
-                </h3>
-                <p className="text-brand-brown/80 leading-relaxed font-light mb-6">
-                  {featuredPost.excerpt}
-                </p>
-                <Button 
-                  variant="ghost" 
-                  className="p-0 h-auto text-brand-orange hover:text-brand-orange-dark font-light text-sm uppercase tracking-[0.1em]"
-                >
-                  Read Full Story <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
+          <article className="max-w-4xl mx-auto">
+            <div className="relative h-96 overflow-hidden mb-12 rounded-lg">
+              <img 
+                src={featuredPost.image}
+                alt={featuredPost.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute top-4 left-4 bg-brand-orange text-white px-3 py-1">
+                <span className="text-xs uppercase tracking-[0.1em]">
+                  {featuredPost.category}
+                </span>
               </div>
             </div>
-          </Card>
+            
+            <div className="flex items-center text-sm text-brand-brown/60 mb-6 space-x-4">
+              <div className="flex items-center">
+                <Calendar className="w-4 h-4 mr-2" />
+                {featuredPost.date}
+              </div>
+              <div className="flex items-center">
+                <User className="w-4 h-4 mr-2" />
+                {featuredPost.author}
+              </div>
+              <span>{featuredPost.readTime}</span>
+            </div>
+            
+            <h1 className="text-3xl md:text-4xl font-light text-brand-brown mb-8 font-playfair leading-tight">
+              {featuredPost.title}
+            </h1>
+            
+            <div 
+              className="text-brand-brown/80 leading-relaxed font-light"
+              dangerouslySetInnerHTML={{ __html: featuredPost.fullContent }}
+            />
+          </article>
         </div>
       </section>
 
