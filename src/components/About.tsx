@@ -64,6 +64,38 @@ const About = () => {
           </div>
         </div>
 
+        {/* Mission and Vision */}
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-light text-gray-900 mb-6 font-playfair">
+                Our Vision
+              </h3>
+              <p className="text-gray-600 leading-relaxed font-light mb-8">
+                To be the leading eco-luxury safari destination in Kenya, setting the standard for 
+                sustainable tourism while creating meaningful connections between travelers and 
+                the Samburu community.
+              </p>
+              
+              <h3 className="text-2xl font-light text-gray-900 mb-6 font-playfair">
+                Our Mission
+              </h3>
+              <p className="text-gray-600 leading-relaxed font-light">
+                To provide exceptional safari experiences that celebrate Kenya's wildlife and 
+                cultural heritage while directly contributing to conservation efforts and 
+                community development through responsible tourism practices.
+              </p>
+            </div>
+          </div>
+          <div className="relative">
+            <img 
+              src="/lovable-uploads/83c625bb-f478-4857-aa19-33737444d4e6.png"
+              alt="Our Mission and Vision"
+              className="w-full h-[500px] object-cover"
+            />
+          </div>
+        </div>
+
         {/* Values */}
         <div className="grid md:grid-cols-3 gap-12">
           {features.map((feature, index) => (

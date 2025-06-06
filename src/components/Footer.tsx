@@ -11,8 +11,11 @@ const Footer = () => {
             <p className="text-earth-200 leading-relaxed mb-4">
               Experience authentic African luxury in the heart of Kenya's Samburu National Reserve, where wildlife roams free and cultural traditions thrive.
             </p>
-            <p className="text-earth-300 text-sm">
+            <p className="text-earth-300 text-sm mb-2">
               Committed to sustainable tourism and community development.
+            </p>
+            <p className="text-earth-300 text-sm">
+              Managed by Creek Oxley
             </p>
           </div>
           
@@ -22,9 +25,9 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li><a href="#about" className="text-earth-200 hover:text-safari-200 transition-colors">About Us</a></li>
-              <li><a href="#accommodations" className="text-earth-200 hover:text-safari-200 transition-colors">Accommodations</a></li>
+              <li><a href="/accommodation" className="text-earth-200 hover:text-safari-200 transition-colors">Accommodation</a></li>
               <li><a href="#experiences" className="text-earth-200 hover:text-safari-200 transition-colors">Experiences</a></li>
-              <li><a href="#gallery" className="text-earth-200 hover:text-safari-200 transition-colors">Gallery</a></li>
+              <li><a href="/community" className="text-earth-200 hover:text-safari-200 transition-colors">Community</a></li>
               <li><a href="#contact" className="text-earth-200 hover:text-safari-200 transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -45,7 +48,7 @@ const Footer = () => {
         
         <div className="border-t border-earth-700 mt-8 pt-8 text-center">
           <p className="text-earth-300">
-            © 2024 Samburu Elephant Lodge. All rights reserved. | 
+            © 2025 Samburu Elephant Lodge. All rights reserved. | 
             <span className="ml-2">Sustainable Tourism • Wildlife Conservation • Community Development</span>
           </p>
         </div>

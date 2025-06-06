@@ -15,6 +15,17 @@ const Experiences = () => {
       image: "/lovable-uploads/a52c4714-9af4-4b55-9836-9df1f03846e4.png"
     },
     {
+      title: "Sundowners",
+      description: "Experience magical African sunsets with drinks and snacks at scenic viewpoints throughout the reserve",
+      highlights: [
+        "Spectacular sunset views",
+        "Premium drinks and canapés",
+        "Professional photography assistance",
+        "Private or group settings available"
+      ],
+      image: "/lovable-uploads/b3a34ba0-4a5b-4f09-88c3-b2ec1e220807.png"
+    },
+    {
       title: "Cultural Encounters",
       description: "Meet the Samburu people and learn about their rich traditions, customs, and way of life",
       highlights: [
@@ -46,6 +57,17 @@ const Experiences = () => {
         "Rare species sightings"
       ],
       image: "/lovable-uploads/826cc20c-e4e4-49b3-99ed-9a39530f28de.png"
+    },
+    {
+      title: "Wild Animal Encounters",
+      description: "Experience close encounters with Africa's iconic wildlife in their natural habitat",
+      highlights: [
+        "Elephant family observations",
+        "Big cat tracking expeditions",
+        "Unique Samburu species viewing",
+        "Professional wildlife photography"
+      ],
+      image: "/lovable-uploads/a52c4714-9af4-4b55-9836-9df1f03846e4.png"
     },
     {
       title: "Outdoor Dining",

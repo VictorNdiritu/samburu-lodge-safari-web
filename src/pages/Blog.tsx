@@ -8,14 +8,13 @@ import { Calendar, User, ArrowRight, Heart } from 'lucide-react';
 const Blog = () => {
   const featuredPost = {
     id: 1,
-    title: "More Than a Safari: How Your Stay at Samburu Elephant Lodge Changes Lives",
-    excerpt: "When you book a safari, you expect stunning wildlife, breathtaking landscapes, and luxury in the wild. At Samburu Elephant Lodge (SEL), you get all that — and something much deeper: the chance to be part of a powerful local story of transformation.",
+    title: "More Than a Safari: How Your Stay Changes Lives",
+    excerpt: "When you book a safari, you expect stunning wildlife and luxury in the wild. At Samburu Elephant Lodge, you get all that — and something much deeper: the chance to be part of a powerful local story of transformation through our partnership with Simama Project Organisation and Project Samburu.",
     author: "SEL Team",
     date: "June 3, 2025",
     category: "Impact",
-    image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?auto=format&fit=crop&w=1200&q=80",
+    image: "/lovable-uploads/d9d9e70d-c2aa-41fb-a9aa-72fc8653f136.png",
     readTime: "8 min read",
-    isFeatured: true,
     fullContent: `
       <div class="prose prose-lg max-w-none">
         <p class="lead">When you book a safari, you expect stunning wildlife, breathtaking landscapes, and luxury in the wild. At Samburu Elephant Lodge (SEL), you get all that — and something much deeper: the chance to be part of a powerful local story of transformation.</p>
@@ -23,12 +22,12 @@ const Blog = () => {
         <h3>🌍 Where Luxury Meets Purpose</h3>
         <p>Nestled along the peaceful banks of the Ewaso Nyiro River, <strong>Samburu Elephant Lodge</strong> is known for its intimate connection with the land and its people. Run by the Samburu community, the lodge blends warm hospitality with rich cultural experiences and immersive wildlife adventures.</p>
         
-        <p>But now, your stay means more than just a memory — <strong>a portion of every booking goes directly to support the work of Simama Project Organisation</strong>, a grassroots initiative changing the lives of vulnerable children and youth in Samburu and beyond.</p>
+        <p>But now, your stay means more than just a memory — <strong>a portion of every booking goes directly to support the work of Simama Project Organisation and Project Samburu</strong>, grassroots initiatives changing the lives of vulnerable children and youth in Samburu and beyond.</p>
         
         <h3>💛 Travel That Uplifts Communities</h3>
         <p><strong>Simama</strong>, meaning <em>"to stand"</em> in Swahili, helps children who have faced homelessness, hunger, or lack of access to education rise again. Through safe housing, education sponsorships, mentorship, and life-skills training, Simama gives them the tools to build a better future.</p>
         
-        <p>Their work doesn't stop with the child. Simama engages with families, schools, and entire communities to create lasting change. And with the new partnership between SEL and Simama, <strong>your stay directly supports this mission.</strong></p>
+        <p><strong>Project Samburu</strong> works hand in hand with Simama, focusing on community-wide initiatives that create sustainable development. Together, they engage with families, schools, and entire communities to create lasting change. With the new partnership between SEL and these organizations, <strong>your stay directly supports this mission.</strong></p>
         
         <h3>🐾 How You Make a Difference</h3>
         <p>Here's what your safari booking helps support:</p>
@@ -38,6 +37,8 @@ const Blog = () => {
           <li>Life skills, leadership, and mental health support</li>
           <li>Family reintegration and community education</li>
           <li>Career training and scholarship pathways</li>
+          <li>Community infrastructure development projects</li>
+          <li>Women's empowerment and income-generating activities</li>
         </ul>
         
         <p>You might come for the elephants and the sunsets — but you leave having helped someone stand again.</p>
@@ -48,7 +49,7 @@ const Blog = () => {
         <p>You're not just a guest here. <strong>You're a partner in something beautiful.</strong></p>
         
         <h3>📅 Ready to Travel With Purpose?</h3>
-        <p><strong>Book your stay</strong> at <a href="https://samburuelephantlodge.co.ke" target="_blank" rel="noopener noreferrer">Samburu Elephant Lodge</a> and be part of a story that stretches beyond the wild — into schools, homes, and hearts.</p>
+        <p><strong>Book your stay</strong> at Samburu Elephant Lodge and be part of a story that stretches beyond the wild — into schools, homes, and hearts.</p>
         
         <p><strong>Experience Samburu. Empower Samburu.</strong></p>
       </div>
@@ -59,9 +60,9 @@ const Blog = () => {
     {
       id: 2,
       title: "The Samburu Special Five: Wildlife You'll Only See Here",
-      excerpt: "Discover the unique wildlife species that make Samburu National Reserve truly special - from the reticulated giraffe to the Grevy's zebra.",
+      excerpt: "Discover the unique wildlife species that make Samburu National Reserve truly special - from the reticulated giraffe to the Grevy's zebra, these endemic species offer unforgettable wildlife experiences.",
       author: "Safari Guide Team",
-      date: "March 15, 2024",
+      date: "December 15, 2024",
       category: "Wildlife",
       image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?auto=format&fit=crop&w=800&q=80",
       readTime: "5 min read"
@@ -69,9 +70,9 @@ const Blog = () => {
     {
       id: 3,
       title: "Cultural Immersion: Learning from the Samburu People",
-      excerpt: "Experience authentic cultural exchanges with the Samburu community, from traditional beadwork to warrior academy training.",
+      excerpt: "Experience authentic cultural exchanges with the Samburu community, from traditional beadwork to warrior academy training and age-old pastoralist traditions.",
       author: "Cultural Experience Team",
-      date: "March 10, 2024",
+      date: "December 10, 2024",
       category: "Culture",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=80",
       readTime: "7 min read"
@@ -79,9 +80,9 @@ const Blog = () => {
     {
       id: 4,
       title: "Sustainable Safari: Our Eco-Tourism Commitment",
-      excerpt: "Learn how Samburu Elephant Lodge contributes to conservation efforts and empowers local communities through responsible tourism.",
+      excerpt: "Learn how Samburu Elephant Lodge contributes to conservation efforts and empowers local communities through responsible tourism practices.",
       author: "Conservation Team",
-      date: "March 5, 2024",
+      date: "December 5, 2024",
       category: "Conservation",
       image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80",
       readTime: "6 min read"
@@ -89,22 +90,12 @@ const Blog = () => {
     {
       id: 5,
       title: "Best Time to Visit Samburu National Reserve",
-      excerpt: "Planning your safari? Discover the optimal seasons for wildlife viewing, weather conditions, and unforgettable experiences.",
+      excerpt: "Planning your safari? Discover the optimal seasons for wildlife viewing, weather conditions, and unforgettable experiences in Samburu.",
       author: "Travel Planning Team",
-      date: "February 28, 2024",
+      date: "November 28, 2024",
       category: "Travel Tips",
       image: "https://images.unsplash.com/photo-1549366021-9f761d040a94?auto=format&fit=crop&w=800&q=80",
       readTime: "4 min read"
-    },
-    {
-      id: 6,
-      title: "Luxury Meets Wilderness: Our Tented Villa Experience",
-      excerpt: "Step inside our beautifully appointed family cottages and single cottages, where comfort meets the wild heart of Kenya.",
-      author: "Hospitality Team",
-      date: "February 20, 2024",
-      category: "Accommodation",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
-      readTime: "8 min read"
     }
   ];
 
@@ -218,16 +209,6 @@ const Blog = () => {
                 </CardHeader>
               </Card>
             ))}
-          </div>
-
-          {/* Load More Button */}
-          <div className="text-center mt-16">
-            <Button 
-              variant="outline" 
-              className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white px-8 py-3 text-sm uppercase tracking-[0.1em] font-light"
-            >
-              Load More Articles
-            </Button>
           </div>
         </div>
       </section>

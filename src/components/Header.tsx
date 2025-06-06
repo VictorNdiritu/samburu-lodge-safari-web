@@ -10,11 +10,11 @@ const Header = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', href: '#home', isAnchor: true },
+    { name: 'Home', href: '/', isAnchor: false },
     { name: 'About', href: '#about', isAnchor: true },
-    { name: 'Accommodations', href: '#accommodations', isAnchor: true },
+    { name: 'Accommodation', href: '/accommodation', isAnchor: false },
     { name: 'Experiences', href: '#experiences', isAnchor: true },
-    { name: 'Gallery', href: '#gallery', isAnchor: true },
+    { name: 'Community', href: '/community', isAnchor: false },
     { name: 'Travel Info', href: '/travel-info', isAnchor: false },
     { name: 'Blog', href: '/blog', isAnchor: false },
     { name: 'Contact', href: '#contact', isAnchor: true },
