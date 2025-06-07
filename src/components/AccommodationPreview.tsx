@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Users, Coffee, Utensils } from 'lucide-react';
+import { ArrowRight, Coffee, Utensils } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const AccommodationPreview = () => {
@@ -24,7 +24,7 @@ const AccommodationPreview = () => {
 
   const conferenceRoom = {
     title: "Conference & Meeting Facilities",
-    description: "Professional meeting space perfect for corporate retreats and special events",
+    description: "Professional meeting space strategically located in the coolest areas of the lodge for optimal comfort during events and corporate retreats",
     image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
   };
 
@@ -93,11 +93,7 @@ const AccommodationPreview = () => {
               <p className="text-gray-600 leading-relaxed font-light mb-6">
                 {conferenceRoom.description}
               </p>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="flex items-center">
-                  <Users className="w-5 h-5 text-gray-500 mr-2" />
-                  <span className="text-sm text-gray-600">Up to 50 people</span>
-                </div>
+              <div className="grid grid-cols-1 gap-4 mb-6">
                 <div className="flex items-center">
                   <Coffee className="w-5 h-5 text-gray-500 mr-2" />
                   <span className="text-sm text-gray-600">Catering available</span>
