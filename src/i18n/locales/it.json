@@ -1,0 +1,124 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "accommodation": "Alloggio",
+    "experiences": "Esperienze",
+    "community": "Comunità",
+    "travelInfo": "Info Viaggio",
+    "blog": "Blog",
+    "contact": "Contatto",
+    "reserve": "Prenota",
+    "makeReservation": "Fai una Prenotazione"
+  },
+  "hero": {
+    "location": "Riserva Nazionale Samburu, Kenya",
+    "title": "Samburu",
+    "subtitle": "Elephant Lodge",
+    "description": "Un'esperienza safari intima nel cuore della natura più incontaminata del Kenya, dove l'autenticità incontra il comfort raffinato",
+    "makeReservation": "Fai una Prenotazione",
+    "exploreExperiences": "Esplora le Esperienze",
+    "discover": "Scopri"
+  },
+  "about": {
+    "sectionTitle": "Chi Siamo",
+    "title": "Dove la Natura Selvaggia\nIncontra la Meraviglia",
+    "description": "Immerso nella incontaminata Riserva Nazionale Samburu, il nostro lodge rappresenta più di un alloggio—è una porta d'accesso all'Africa autentica, dove ogni momento ti connette alla bellezza selvaggia del Kenya.",
+    "philosophy": "La Nostra Filosofia",
+    "philosophyText1": "Samburu Elephant Lodge esiste all'intersezione di lusso e responsabilità. Crediamo che un'ospitalità eccezionale dovrebbe migliorare, non diminuire, il mondo naturale che ci circonda.",
+    "philosophyText2": "Qui, in partnership con la comunità locale Samburu, abbiamo creato un santuario dove i viaggiatori possono sperimentare la profonda bellezza del Kenya contribuendo alla sua preservazione per le generazioni future.",
+    "vision": "La Nostra Visione",
+    "visionText": "Essere la destinazione safari eco-lusso leader in Kenya, stabilendo lo standard per il turismo sostenibile creando connessioni significative tra viaggiatori e la comunità Samburu.",
+    "mission": "La Nostra Missione",
+    "missionText": "Fornire esperienze safari eccezionali che celebrino la fauna selvatica e il patrimonio culturale del Kenya contribuendo direttamente agli sforzi di conservazione e sviluppo comunitario attraverso pratiche di turismo responsabile.",
+    "conservation": "Conservazione",
+    "conservationText": "Impegnati nella protezione della fauna selvatica e nella preservazione dell'ecosistema nel paesaggio Samburu",
+    "community": "Comunità",
+    "communityText": "Supportare le comunità locali Samburu attraverso partnership significative e scambio culturale",
+    "authenticity": "Autenticità",
+    "authenticityText": "Esperienze safari genuine che onorano la terra e la sua gente"
+  },
+  "accommodation": {
+    "sectionTitle": "Alloggio",
+    "title": "Cottage di Lusso sotto Tenda\ne Strutture per Conferenze",
+    "description": "Sperimenta il comfort nella natura selvaggia con i nostri cottage progettati con cura e strutture per riunioni professionali per ogni tipo di viaggiatore.",
+    "viewAll": "Vedi Tutti gli Alloggi",
+    "familyCottage": "Cottage Familiare",
+    "singleCottage": "Cottage Singolo",
+    "guests": "Ospiti",
+    "conferenceTitle": "Strutture per Conferenze e Riunioni",
+    "conferenceDescription": "Spazio riunioni professionale strategicamente situato nelle aree più fresche del lodge per comfort ottimale durante eventi e ritiri aziendali",
+    "catering": "Catering disponibile",
+    "diningTitle": "Esperienza Culinaria",
+    "diningDescription": "Assapora cucina eccezionale preparata con ingredienti locali, servita nelle nostre eleganti aree pranzo o sotto le stelle africane."
+  },
+  "experiences": {
+    "sectionTitle": "Esperienze Indimenticabili",
+    "description": "Immergiti nelle meraviglie di Samburu attraverso attività accuratamente selezionate",
+    "viewAll": "Vedi Tutte le Esperienze",
+    "gameDrives": "Safari",
+    "gameDrivesDescription": "Esplora la vasta Riserva Nazionale Samburu nei nostri comodi veicoli 4WD con guide esperte",
+    "sundowners": "Tramonti",
+    "sundownersDescription": "Sperimenta magici tramonti africani con drink e snack in punti panoramici",
+    "cultural": "Incontri Culturali",
+    "culturalDescription": "Incontra il popolo Samburu e impara le loro ricche tradizioni e stile di vita"
+  },
+  "gallery": {
+    "title": "Galleria",
+    "description": "Esplora la bellezza di Samburu attraverso la nostra collezione di immagini mozzafiato che mostrano fauna selvatica, paesaggi ed esperienze del lodge",
+    "testimonials": "Testimonianze degli Ospiti",
+    "testimonial1": "Soggiornare al Samburu Elephant Lodge è stato un sogno che si avvera! Le viste sul fiume, i branchi di elefanti e il servizio impeccabile hanno reso questo viaggio davvero indimenticabile.",
+    "testimonial1Author": "Sarah M, USA",
+    "testimonial2": "La visita guidata a un villaggio Samburu è stata illuminante. Imparare le loro tradizioni soggiornando in un posto così stupendo ha reso questo viaggio straordinario.",
+    "testimonial2Author": "Liam T, Canada"
+  },
+  "blog": {
+    "sectionTitle": "Dal Nostro Blog",
+    "title": "Storie Che Contano",
+    "description": "Scopri come la tua esperienza safari crea un impatto duraturo oltre la natura selvaggia",
+    "readFullStory": "Leggi la Storia Completa",
+    "viewAllStories": "Vedi Tutte le Storie",
+    "featuredTitle": "Più di un Safari: Come il Tuo Soggiorno Cambia Vite",
+    "featuredExcerpt": "Quando prenoti un safari, ti aspetti fauna selvatica mozzafiato e lusso nella natura selvaggia. Al Samburu Elephant Lodge, ottieni tutto questo — e qualcosa di molto più profondo: la possibilità di essere parte di una potente storia locale di trasformazione attraverso la nostra partnership con Simama Project Organisation.",
+    "author": "Team SEL",
+    "readTime": "8 min di lettura",
+    "category": "Impatto"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "description": "Pronto a sperimentare la magia di Samburu? Contattaci per pianificare la tua avventura safari indimenticabile",
+    "whatsappTitle": "Risposta Rapida via WhatsApp",
+    "whatsappDescription": "Ottieni assistenza istantanea per prenotazioni e servizio personalizzato. Chatta con il nostro team ora!",
+    "chatWhatsApp": "Chatta su WhatsApp",
+    "location": "Posizione",
+    "contactNumbers": "Numeri di Contatto",
+    "whatsappPreferred": "WhatsApp (Preferito):",
+    "receptionHours": "Orari Reception",
+    "sendMessage": "Inviaci un Messaggio",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "phone": "Telefono",
+    "checkinDate": "Data di Arrivo",
+    "checkoutDate": "Data di Partenza",
+    "message": "Messaggio",
+    "messagePlaceholder": "Raccontaci i tuoi sogni safari...",
+    "sendMessageButton": "Invia Messaggio"
+  },
+  "footer": {
+    "description": "Sperimenta il lusso africano autentico nel cuore della Riserva Nazionale Samburu del Kenya, dove la fauna selvatica vaga libera e le tradizioni culturali prosperano.",
+    "sustainability": "Impegnati nel turismo sostenibile e nello sviluppo comunitario.",
+    "management": "Gestito da Creek Oxley",
+    "quickLinks": "Link Rapidi",
+    "contactInfo": "Informazioni di Contatto",
+    "address": "677 Riserva Nazionale Samburu\nIsiolo, 60300, Kenya",
+    "copyright": "© 2025 Samburu Elephant Lodge. Tutti i diritti riservati.",
+    "sustainabilityFooter": "Turismo Sostenibile • Conservazione Fauna Selvatica • Sviluppo Comunitario"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "tryAgain": "Riprova"
+  }
+}

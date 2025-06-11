@@ -1,0 +1,124 @@
+
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "accommodation": "住宿",
+    "experiences": "体验",
+    "community": "社区",
+    "travelInfo": "旅行信息",
+    "blog": "博客",
+    "contact": "联系我们",
+    "reserve": "预订",
+    "makeReservation": "预订房间"
+  },
+  "hero": {
+    "location": "肯尼亚桑布鲁国家保护区",
+    "title": "桑布鲁",
+    "subtitle": "大象度假村",
+    "description": "在肯尼亚最原始的荒野中心享受私密的狩猎体验，真实性与精致舒适相遇",
+    "makeReservation": "预订房间",
+    "exploreExperiences": "探索体验",
+    "discover": "发现"
+  },
+  "about": {
+    "sectionTitle": "关于我们",
+    "title": "荒野遇见奇迹",
+    "description": "坐落在原始的桑布鲁国家保护区内，我们的度假村不仅仅代表住宿——它是通往真正非洲的门户，每一刻都将您与肯尼亚荒野的原始美景相连。",
+    "philosophy": "我们的理念",
+    "philosophyText1": "桑布鲁大象度假村存在于奢华与责任的交汇点。我们相信卓越的款待应该增强而不是减少我们周围的自然世界。",
+    "philosophyText2": "在这里，与当地桑布鲁社区合作，我们创造了一个庇护所，旅行者可以在其中体验肯尼亚的深刻美景，同时为子孙后代的保护做出贡献。",
+    "vision": "我们的愿景",
+    "visionText": "成为肯尼亚领先的生态奢华狩猎目的地，为可持续旅游设定标准，同时在旅行者与桑布鲁社区之间建立有意义的联系。",
+    "mission": "我们的使命",
+    "missionText": "通过负责任的旅游实践，提供庆祝肯尼亚野生动物和文化遗产的卓越狩猎体验，同时直接为保护工作和社区发展做出贡献。",
+    "conservation": "保护",
+    "conservationText": "致力于桑布鲁景观中的野生动物保护和生态系统保护",
+    "community": "社区",
+    "communityText": "通过有意义的合作伙伴关系和文化交流支持当地桑布鲁社区",
+    "authenticity": "真实性",
+    "authenticityText": "尊重土地及其人民的真正狩猎体验"
+  },
+  "accommodation": {
+    "sectionTitle": "住宿",
+    "title": "豪华帐篷小屋\n和会议设施",
+    "description": "通过我们精心设计的小屋和专业会议设施，在野外体验舒适，适合每种类型的旅行者。",
+    "viewAll": "查看所有住宿",
+    "familyCottage": "家庭小屋",
+    "singleCottage": "单人小屋",
+    "guests": "客人",
+    "conferenceTitle": "会议和会议设施",
+    "conferenceDescription": "专业会议空间战略性地位于度假村最凉爽的区域，为活动和企业静修提供最佳舒适度",
+    "catering": "提供餐饮服务",
+    "diningTitle": "用餐体验",
+    "diningDescription": "品尝用当地采购食材制作的精美菜肴，在我们优雅的用餐区或非洲星空下享用。"
+  },
+  "experiences": {
+    "sectionTitle": "难忘的体验",
+    "description": "通过精心策划的活动沉浸在桑布鲁的奇迹中",
+    "viewAll": "查看所有体验",
+    "gameDrives": "狩猎驾驶",
+    "gameDrivesDescription": "在我们舒适的四驱车中与经验丰富的导游一起探索广阔的桑布鲁国家保护区",
+    "sundowners": "日落",
+    "sundownersDescription": "在风景优美的观景点享受神奇的非洲日落，配有饮品和小食",
+    "cultural": "文化邂逅",
+    "culturalDescription": "结识桑布鲁人民，了解他们丰富的传统和生活方式"
+  },
+  "gallery": {
+    "title": "画廊",
+    "description": "通过我们展示野生动物、风景和度假村体验的精美图片集合探索桑布鲁的美丽",
+    "testimonials": "客人评价",
+    "testimonial1": "在桑布鲁大象度假村住宿是梦想成真！河流的景色、象群和无可挑剔的服务使这次旅行真正难忘。",
+    "testimonial1Author": "Sarah M，美国",
+    "testimonial2": "对桑布鲁村庄的导览参观令人大开眼界。在如此令人惊叹的地方学习他们的传统使这次旅行非凡。",
+    "testimonial2Author": "Liam T，加拿大"
+  },
+  "blog": {
+    "sectionTitle": "来自我们的博客",
+    "title": "重要的故事",
+    "description": "发现您的狩猎体验如何在荒野之外创造持久影响",
+    "readFullStory": "阅读完整故事",
+    "viewAllStories": "查看所有故事",
+    "featuredTitle": "不仅仅是狩猎：您的住宿如何改变生活",
+    "featuredExcerpt": "当您预订狩猎时，您期待惊人的野生动物和野外奢华。在桑布鲁大象度假村，您得到所有这些——以及更深层的东西：通过我们与Simama项目组织的合作伙伴关系，成为强大的当地转型故事一部分的机会。",
+    "author": "SEL团队",
+    "readTime": "8分钟阅读",
+    "category": "影响"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "准备体验桑布鲁的魔力了吗？联系我们规划您难忘的狩猎冒险",
+    "whatsappTitle": "通过WhatsApp快速响应",
+    "whatsappDescription": "获得即时预订协助和个性化服务。现在就与我们的团队聊天！",
+    "chatWhatsApp": "在WhatsApp上聊天",
+    "location": "位置",
+    "contactNumbers": "联系电话",
+    "whatsappPreferred": "WhatsApp（首选）：",
+    "receptionHours": "接待时间",
+    "sendMessage": "给我们发送消息",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "电子邮件",
+    "phone": "电话",
+    "checkinDate": "入住日期",
+    "checkoutDate": "退房日期",
+    "message": "消息",
+    "messagePlaceholder": "告诉我们您的狩猎梦想...",
+    "sendMessageButton": "发送消息"
+  },
+  "footer": {
+    "description": "在肯尼亚桑布鲁国家保护区的中心体验正宗的非洲奢华，野生动物自由漫游，文化传统蓬勃发展。",
+    "sustainability": "致力于可持续旅游和社区发展。",
+    "management": "由Creek Oxley管理",
+    "quickLinks": "快速链接",
+    "contactInfo": "联系信息",
+    "address": "677桑布鲁国家保护区\n伊西奥洛，60300，肯尼亚",
+    "copyright": "© 2025桑布鲁大象度假村。保留所有权利。",
+    "sustainabilityFooter": "可持续旅游•野生动物保护•社区发展"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "tryAgain": "重试"
+  }
+}

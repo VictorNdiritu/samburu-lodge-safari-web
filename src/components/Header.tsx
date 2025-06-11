@@ -1,23 +1,26 @@
 
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, X } from 'lucide-react';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const navItems = [
-    { name: 'Home', href: '/', isAnchor: false },
-    { name: 'About', href: '#about', isAnchor: true },
-    { name: 'Accommodation', href: '/accommodation', isAnchor: false },
-    { name: 'Experiences', href: '#experiences', isAnchor: true },
-    { name: 'Community', href: '/community', isAnchor: false },
-    { name: 'Travel Info', href: '/travel-info', isAnchor: false },
-    { name: 'Blog', href: '/blog', isAnchor: false },
-    { name: 'Contact', href: '#contact', isAnchor: true },
+    { name: t('navigation.home'), href: '/', isAnchor: false },
+    { name: t('navigation.about'), href: '#about', isAnchor: true },
+    { name: t('navigation.accommodation'), href: '/accommodation', isAnchor: false },
+    { name: t('navigation.experiences'), href: '#experiences', isAnchor: true },
+    { name: t('navigation.community'), href: '/community', isAnchor: false },
+    { name: t('navigation.travelInfo'), href: '/travel-info', isAnchor: false },
+    { name: t('navigation.blog'), href: '/blog', isAnchor: false },
+    { name: t('navigation.contact'), href: '#contact', isAnchor: true },
   ];
 
   return (
@@ -58,13 +61,14 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Reservation Button */}
-          <div className="hidden lg:flex">
+          {/* Right Side - Language Switcher & Reservation Button */}
+          <div className="hidden lg:flex items-center space-x-4">
+            <LanguageSwitcher />
             <Button 
               variant="outline" 
               className="border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-white px-6 py-2 text-xs uppercase tracking-[0.1em] font-light"
             >
-              Reserve
+              {t('navigation.reserve')}
             </Button>
           </div>
 
@@ -110,9 +114,10 @@ const Header = () => {
                       </Link>
                     )
                   ))}
-                  <div className="pt-8">
+                  <div className="pt-8 space-y-4">
+                    <LanguageSwitcher />
                     <Button className="bg-brand-orange text-white hover:bg-brand-orange-dark w-full py-3 text-sm uppercase tracking-[0.1em]">
-                      Make Reservation
+                      {t('navigation.makeReservation')}
                     </Button>
                   </div>
                 </nav>

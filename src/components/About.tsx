@@ -1,21 +1,24 @@
 
+import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
-      title: "Conservation",
-      description: "Committed to wildlife protection and ecosystem preservation in the Samburu landscape",
+      title: t('about.conservation'),
+      description: t('about.conservationText'),
       image: "/lovable-uploads/0808a2aa-6a3d-4233-b3b1-f0ad915c2478.png"
     },
     {
-      title: "Community",
-      description: "Supporting local Samburu communities through meaningful partnerships and cultural exchange",
+      title: t('about.community'),
+      description: t('about.communityText'),
       image: "/lovable-uploads/83c625bb-f478-4857-aa19-33737444d4e6.png"
     },
     {
-      title: "Authenticity",
-      description: "Genuine safari experiences that honor the land and its people",
+      title: t('about.authenticity'),
+      description: t('about.authenticityText'),
       image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=800&q=80"
     }
   ];
@@ -25,14 +28,12 @@ const About = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-4xl mx-auto text-center mb-20">
-          <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">About Us</p>
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8 font-playfair">
-            Where Wilderness<br />Meets Wonder
+          <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">{t('about.sectionTitle')}</p>
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-8 font-playfair whitespace-pre-line">
+            {t('about.title')}
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed font-light">
-            Nestled within the pristine Samburu National Reserve, our lodge represents 
-            more than accommodation—it's a gateway to authentic Africa, where every 
-            moment connects you to the raw beauty of Kenya's wilderness.
+            {t('about.description')}
           </p>
         </div>
 
@@ -41,17 +42,13 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-light text-gray-900 mb-6 font-playfair">
-                Our Philosophy
+                {t('about.philosophy')}
               </h3>
               <p className="text-gray-600 leading-relaxed mb-6 font-light">
-                Samburu Elephant Lodge exists at the intersection of luxury and responsibility. 
-                We believe that exceptional hospitality should enhance, not diminish, the natural 
-                world that surrounds us.
+                {t('about.philosophyText1')}
               </p>
               <p className="text-gray-600 leading-relaxed font-light">
-                Here, in partnership with the local Samburu community, we've created a sanctuary 
-                where travelers can experience the profound beauty of Kenya while contributing 
-                to its preservation for generations to come.
+                {t('about.philosophyText2')}
               </p>
             </div>
           </div>
@@ -69,21 +66,17 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-light text-gray-900 mb-6 font-playfair">
-                Our Vision
+                {t('about.vision')}
               </h3>
               <p className="text-gray-600 leading-relaxed font-light mb-8">
-                To be the leading eco-luxury safari destination in Kenya, setting the standard for 
-                sustainable tourism while creating meaningful connections between travelers and 
-                the Samburu community.
+                {t('about.visionText')}
               </p>
               
               <h3 className="text-2xl font-light text-gray-900 mb-6 font-playfair">
-                Our Mission
+                {t('about.mission')}
               </h3>
               <p className="text-gray-600 leading-relaxed font-light">
-                To provide exceptional safari experiences that celebrate Kenya's wildlife and 
-                cultural heritage while directly contributing to conservation efforts and 
-                community development through responsible tourism practices.
+                {t('about.missionText')}
               </p>
             </div>
           </div>
