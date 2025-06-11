@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { flag, languages } from 'lucide-react';
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
