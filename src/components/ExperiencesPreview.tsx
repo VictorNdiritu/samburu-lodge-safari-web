@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Binoculars, Sun } from 'lucide-react';
@@ -22,7 +21,7 @@ const ExperiencesPreview = () => {
       title: "Cultural Encounters",
       description: "Meet the Samburu people and learn about their rich traditions and way of life",
       icon: Binoculars,
-      image: "/lovable-uploads/1cda3e5b-d1d8-4f15-b3e3-3e71304c6843.png"
+      image: "/lovable-uploads/1fbbafa5-a3d3-4162-b471-49f406e6f193.png"
     }
   ];
 
