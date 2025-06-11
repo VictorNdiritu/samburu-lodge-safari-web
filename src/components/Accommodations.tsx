@@ -1,9 +1,10 @@
+
 import { Card, CardContent } from '@/components/ui/card';
 
 const Accommodations = () => {
   const accommodations = [
     {
-      title: "Simba House",
+      title: "Simba",
       subtitle: "Family Cottage",
       count: "4 Guests",
       description: "Two interconnected bedrooms with luxurious amenities and Ewaso River views",
@@ -20,7 +21,7 @@ const Accommodations = () => {
       image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
     },
     {
-      title: "Chui House",
+      title: "Chui",
       subtitle: "Family Cottage", 
       count: "4 Guests",
       description: "Two interconnected bedrooms designed for comfort and natural immersion",
@@ -37,7 +38,7 @@ const Accommodations = () => {
       image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     },
     {
-      title: "Tembo House",
+      title: "Tembo",
       subtitle: "Family Cottage",
       count: "6 Guests", 
       description: "Three interconnected bedrooms perfect for larger families seeking luxury",
@@ -54,7 +55,7 @@ const Accommodations = () => {
       image: "/lovable-uploads/ee4b0d52-e85a-4e07-b337-360f2f487f28.png"
     },
     {
-      title: "Kifaru House",
+      title: "Kifaru",
       subtitle: "Family Cottage",
       count: "4 Guests",
       description: "Two interconnected bedrooms with premium comfort and stunning natural views",
@@ -71,7 +72,7 @@ const Accommodations = () => {
       image: "/lovable-uploads/659bf2a0-4859-4a60-bc13-d6d03cb00697.png"
     },
     {
-      title: "Nyati House",
+      title: "Nyati",
       subtitle: "Family Cottage",
       count: "4 Guests", 
       description: "Two interconnected bedrooms offering comfort and tranquil natural surroundings",
@@ -88,19 +89,19 @@ const Accommodations = () => {
       image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
     },
     {
-      title: "Duma House", 
+      title: "Duma", 
       subtitle: "Family Cottage",
       count: "6 Guests",
-      description: "Three interconnected bedrooms with luxury amenities and outdoor bathtub",
+      description: "Three interconnected bedrooms with luxury amenities being customized exclusively for persons with disabilities",
       features: [
         "1 King-size bed + 4 Queen-size beds",
-        "Indoor & outdoor solar-powered hot showers",
-        "Luxurious outdoor bathtub with nature views", 
-        "Private veranda with outdoor bed seats",
-        "Family-size outdoor breakfast dining",
-        "Coffee area with premium amenities",
-        "Complimentary high-speed Wi-Fi",
-        "Personal safe and luxury toiletries"
+        "Wheelchair accessible design with safety features",
+        "Modified bathroom with accessibility features",
+        "Wide doorways and ramps for easy access",
+        "Special mobility equipment available",
+        "Premium amenities adapted for accessibility",
+        "Dedicated support staff available",
+        "Complimentary high-speed Wi-Fi"
       ],
       image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     },

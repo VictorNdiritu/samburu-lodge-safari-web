@@ -94,16 +94,16 @@ const Accommodation = () => {
       title: "Duma", 
       subtitle: "Family Cottage",
       count: "6 Guests",
-      description: "Three interconnected bedrooms with luxury amenities and outdoor bathtub",
+      description: "Three interconnected bedrooms with luxury amenities being customized exclusively for persons with disabilities",
       features: [
         "1 King-size bed + 4 Queen-size beds",
-        "Indoor & outdoor solar-powered hot showers",
-        "Luxurious outdoor bathtub with nature views", 
-        "Private veranda with outdoor bed seats",
-        "Family-size outdoor breakfast dining",
-        "Coffee area with premium amenities",
-        "Complimentary high-speed Wi-Fi",
-        "Personal safe and luxury toiletries"
+        "Wheelchair accessible design with safety features",
+        "Modified bathroom with accessibility features",
+        "Wide doorways and ramps for easy access",
+        "Special mobility equipment available",
+        "Premium amenities adapted for accessibility",
+        "Dedicated support staff available",
+        "Complimentary high-speed Wi-Fi"
       ],
       image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
     },
@@ -160,17 +160,17 @@ const Accommodation = () => {
     },
     {
       title: "Gerenuk Cottage",
-      subtitle: "PWD Accessible Cottage",
+      subtitle: "Single Cottage",
       count: "2 Guests", 
-      description: "Specially designed cottage being customized exclusively for persons with disabilities",
+      description: "Intimate single cottage offering comfort and connection with natural surroundings",
       features: [
-        "Wheelchair accessible design",
-        "Modified bathroom with safety features", 
-        "Accessible shower and toilet facilities",
-        "Wide doorways and ramps",
-        "Special mobility equipment available",
-        "Premium amenities adapted for accessibility",
-        "Dedicated support staff available",
+        "Spacious King-size bed with mosquito net",
+        "Indoor shower with uninterrupted hot water", 
+        "Invigorating open-air hot sun shower",
+        "Indoor seating and outdoor seating areas",
+        "Coffee area with premium amenities",
+        "20L bottled water dispenser",
+        "Locally sourced luxury toiletries", 
         "Free high-speed Wi-Fi"
       ],
       image: "/lovable-uploads/609a7792-a922-4734-a8df-59852f0ed05e.png"
@@ -193,7 +193,7 @@ const Accommodation = () => {
         "Luggage storage available",
         "24/7 security"
       ],
-      image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
+      image: "/lovable-uploads/c2ac7393-783e-483c-b4ee-7be22a7432d7.png"
     },
     {
       title: "Camping Ground",
@@ -216,18 +216,16 @@ const Accommodation = () => {
 
   const conferenceRoom = {
     title: "Conference & Meeting Facilities",
-    description: "Professional meeting space perfect for corporate retreats, conferences, and special events",
+    description: "Professional meeting space strategically located in the coolest areas of the lodge for optimal comfort during events and corporate retreats",
     features: [
-      "Capacity for up to 50 people",
       "Audio-visual equipment available",
       "High-speed Wi-Fi connectivity",
-      "Air conditioning for comfort",
       "Catering services available",
       "Flexible seating arrangements",
       "Outdoor breakout spaces",
       "Stunning natural backdrop"
     ],
-    image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
+    image: "/lovable-uploads/919f4db2-b83d-4c5d-984c-46f41e52f10c.png"
   };
 
   return (

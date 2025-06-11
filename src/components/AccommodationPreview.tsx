@@ -25,7 +25,7 @@ const AccommodationPreview = () => {
   const conferenceRoom = {
     title: "Conference & Meeting Facilities",
     description: "Professional meeting space strategically located in the coolest areas of the lodge for optimal comfort during events and corporate retreats",
-    image: "/lovable-uploads/92cfc94f-80f8-41ef-bade-091186ea5ace.png"
+    image: "/lovable-uploads/919f4db2-b83d-4c5d-984c-46f41e52f10c.png"
   };
 
   return (

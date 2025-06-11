@@ -2,57 +2,42 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from '@/components/ui/card';
-import { Heart, Users, Leaf, BookOpen } from 'lucide-react';
 
 const Community = () => {
   const initiatives = [
     {
-      title: "Simama Project Organisation",
-      description: "Supporting vulnerable children and youth through education, safe housing, and life skills training.",
-      icon: Heart,
-      image: "/lovable-uploads/83c625bb-f478-4857-aa19-33737444d4e6.png",
-      features: [
-        "Educational sponsorships and scholarships",
-        "Safe housing for street children",
-        "Mental health and counseling support",
-        "Leadership development programs"
-      ]
+      title: "Education Support",
+      description: "Building schools and providing educational resources for local children",
+      image: "/lovable-uploads/83c625bb-f478-4857-aa19-33737444d4e6.png"
     },
     {
-      title: "Project Samburu",
-      description: "Community-wide development initiatives focusing on sustainable growth and empowerment.",
-      icon: Users,
-      image: "/lovable-uploads/7bf2e565-a82b-4a3a-b39e-09a644ad96b9.png",
-      features: [
-        "Infrastructure development projects",
-        "Women's empowerment programs",
-        "Income-generating activities",
-        "Community capacity building"
-      ]
-    },
-    {
-      title: "Conservation Efforts",
-      description: "Protecting wildlife and preserving the ecosystem for future generations.",
-      icon: Leaf,
-      image: "/lovable-uploads/0808a2aa-6a3d-4233-b3b1-f0ad915c2478.png",
-      features: [
-        "Wildlife protection programs",
-        "Habitat conservation initiatives",
-        "Anti-poaching support",
-        "Environmental education"
-      ]
+      title: "Healthcare Programs",
+      description: "Mobile clinics and health awareness programs for remote communities",
+      image: "/lovable-uploads/0808a2aa-6a3d-4233-b3b1-f0ad915c2478.png"
     },
     {
       title: "Cultural Preservation",
-      description: "Maintaining and celebrating Samburu traditions and cultural heritage.",
-      icon: BookOpen,
-      image: "/lovable-uploads/1cda3e5b-d1d8-4f15-b3e3-3e71304c6843.png",
-      features: [
-        "Traditional craft workshops",
-        "Cultural storytelling sessions",
-        "Language preservation",
-        "Youth cultural education"
-      ]
+      description: "Supporting traditional Samburu customs, language, and cultural practices",
+      image: "/lovable-uploads/349d6974-edd6-418e-8d19-2ef6ff2075ae.png"
+    }
+  ];
+
+  const conservationEfforts = [
+    {
+      title: "Wildlife Protection",
+      description: "Anti-poaching initiatives and wildlife monitoring programs"
+    },
+    {
+      title: "Habitat Restoration", 
+      description: "Reforestation and ecosystem restoration projects"
+    },
+    {
+      title: "Research & Education",
+      description: "Scientific research and conservation education programs"
+    },
+    {
+      title: "Community Rangers",
+      description: "Training local community members as wildlife conservationists"
     }
   ];
 
@@ -66,47 +51,40 @@ const Community = () => {
           <div className="text-center max-w-4xl mx-auto">
             <p className="text-sm uppercase tracking-[0.3em] text-brand-brown mb-4">Community & Conservancy</p>
             <h1 className="text-4xl md:text-5xl font-light text-brand-brown mb-6 font-playfair">
-              Building Tomorrow Together
+              Protecting Wildlife,<br />Empowering Communities
             </h1>
             <p className="text-lg text-brand-brown/80 leading-relaxed font-light">
-              Your stay at Samburu Elephant Lodge directly supports community development and conservation efforts 
-              that create lasting positive impact for the Samburu people and their environment.
+              Our commitment extends beyond hospitality to meaningful conservation and 
+              community development initiatives that create lasting positive impact 
+              in the Samburu region.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* Community Initiatives */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16">
+          <h2 className="text-3xl font-light text-brand-brown mb-12 text-center font-playfair">
+            Community Initiatives
+          </h2>
+          <div className="grid md:grid-cols-3 gap-12">
             {initiatives.map((initiative, index) => (
-              <Card key={index} className="bg-white border-0 shadow-lg overflow-hidden">
+              <Card key={index} className="bg-white border-0 shadow-none overflow-hidden hover:shadow-lg transition-all duration-300">
                 <div className="relative h-80 overflow-hidden">
                   <img 
                     src={initiative.image}
                     alt={initiative.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute top-4 left-4 bg-brand-orange text-white p-3 rounded-full">
-                    <initiative.icon className="w-6 h-6" />
-                  </div>
                 </div>
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-light text-brand-brown mb-4 font-playfair">
+                  <h3 className="text-xl font-light text-brand-brown mb-3 font-playfair">
                     {initiative.title}
                   </h3>
-                  <p className="text-brand-brown/80 leading-relaxed font-light mb-6">
+                  <p className="text-brand-brown/80 leading-relaxed font-light">
                     {initiative.description}
                   </p>
-                  <ul className="space-y-3">
-                    {initiative.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="text-sm text-brand-brown/80 font-light flex items-start">
-                        <span className="w-2 h-2 bg-brand-orange rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
                 </CardContent>
               </Card>
             ))}
@@ -114,30 +92,59 @@ const Community = () => {
         </div>
       </section>
 
-      {/* Impact Section */}
+      {/* Conservation Efforts */}
       <section className="py-20 bg-brand-cream/30">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-light text-brand-brown mb-6 font-playfair">
-              Your Impact in Numbers
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-light text-brand-brown mb-8 font-playfair">
+              Conservation Efforts
             </h2>
+            <p className="text-lg text-brand-brown/80 leading-relaxed font-light">
+              Working hand-in-hand with local communities and conservation organizations 
+              to protect the unique ecosystem of Samburu for future generations.
+            </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-3xl font-light text-brand-orange mb-2">150+</h3>
-              <p className="text-brand-brown font-light">Children Supported</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-3xl font-light text-brand-orange mb-2">25</h3>
-              <p className="text-brand-brown font-light">Families Empowered</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-3xl font-light text-brand-orange mb-2">5,000</h3>
-              <p className="text-brand-brown font-light">Acres Protected</p>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-3xl font-light text-brand-orange mb-2">10</h3>
-              <p className="text-brand-brown font-light">Community Projects</p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {conservationEfforts.map((effort, index) => (
+              <div key={index} className="text-center">
+                <h4 className="text-lg font-light text-brand-brown mb-3 font-playfair">
+                  {effort.title}
+                </h4>
+                <p className="text-brand-brown/80 leading-relaxed font-light text-sm">
+                  {effort.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Partnership */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-light text-brand-brown mb-8 font-playfair">
+              Get Involved
+            </h2>
+            <p className="text-lg text-brand-brown/80 leading-relaxed font-light mb-8">
+              Join us in making a difference. Your visit directly contributes to our 
+              conservation and community development programs. Together, we can ensure 
+              that the magic of Samburu continues for generations to come.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div>
+                <h4 className="text-sm uppercase tracking-[0.1em] text-brand-brown mb-2 font-light">Visit & Support</h4>
+                <p className="text-xs text-brand-brown/70 font-light">Every stay contributes to local projects</p>
+              </div>
+              <div>
+                <h4 className="text-sm uppercase tracking-[0.1em] text-brand-brown mb-2 font-light">Volunteer</h4>
+                <p className="text-xs text-brand-brown/70 font-light">Join our conservation activities</p>
+              </div>
+              <div>
+                <h4 className="text-sm uppercase tracking-[0.1em] text-brand-brown mb-2 font-light">Partner</h4>
+                <p className="text-xs text-brand-brown/70 font-light">Collaborate on sustainability initiatives</p>
+              </div>
             </div>
           </div>
         </div>
